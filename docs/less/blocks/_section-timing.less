@@ -1,0 +1,116 @@
+.section-timing {
+    padding: 123px 0 85px;
+    background-image: url("../img/bg/bg-timeline.jpg");
+    background-repeat: repeat-y;
+    z-index: -2;
+    
+ }
+
+.wrapper-timing-content {
+    max-width: 1005px;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        top: 12%;
+        left: 50%;
+        height: 1200px;
+        width: 4px;
+        border-radius: 2px;
+        background-color: #e1eef4;
+        z-index: 0;
+    }
+ }
+
+.section-timing-title {
+    text-align: center;
+    margin-bottom: 127px;
+ }
+
+.timing-row-content {
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    padding-bottom: 111px;     
+ }
+
+ .timing-content-desc {
+    position: absolute;
+    top: 14%;
+    right: 58%;
+    text-align: right;  
+    
+    &&--right {
+        left: 58%;
+        text-align: left; 
+        right: 0;
+    }   
+    
+    &:hover {
+        cursor: pointer;
+
+        .timing-content-desc-titile {
+            
+            &::before {                
+                background-color: #ea736d;                
+            }  
+        }
+    }
+ }
+ 
+ .timing-content-desc-titile {
+    position: relative;
+    display: inline-block; 
+    margin-bottom: 15px;    
+    color: #000000;
+    font-size: 26px;
+    font-weight: 800;
+    z-index: 2;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 8px;
+        bottom: 10%;
+        left: -5px;
+        right: -5px;
+        background-color: #fbdc4d;
+        z-index: -1;
+    }  
+ }
+ 
+ .timing-content-desc-info {
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+ 
+ .timing-content-desc-result { 
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+
+.timing-content-icon {
+    width: 75px;
+    height: 75px;
+    box-shadow: 2px 3px 35px rgba(0, 112, 187, 0.35);
+    border-radius: 28px;
+    background-color: #ffffff;
+    padding: 17px;
+    margin: 20px 0;
+
+    img {
+        width: 40px;
+        height: 40px;      
+    }
+}
+
+.wrapper-icon {
+    height: 115px;
+    background-color: #ffffff;
+}
