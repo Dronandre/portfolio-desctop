@@ -1,50 +1,133 @@
+.wrapper-skill {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width:798px) {
+        flex-direction: row;   
+    }
+}
+
+
+
+
 .section-skills-desc {
-    width: 53%;
+    width: 100%;
+
+    @media (min-width:798px) {
+        width: 53%;
+    }
+    
+    @media (min-width:1230px) {
+        
+    }
 }
 
 .section-skills-desc-title {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
 }
 
 .content-skills {
-    margin-bottom: 38px;    
+    margin-bottom: 20px;  
     text-shadow: 0 3px 42px #ffffff;
     color: #000000;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
 
-    li {     
-        position: relative;   
-        padding-bottom: 3px;
-        padding-left: 30px;
+    li {             
+        padding-bottom: 10px;
+    } 
+    
+    @media (min-width:798px) {
+        margin-bottom: 0;  
+        font-size: 18px;
+        font-weight: 400;
 
-        &::after {
-            position: absolute;
-            content: "";
-            height: 3px;
-            width: 15px;
-            background-color: #000000;
-            top: 18px;
-            left: 0;
+        li {             
+            padding-bottom: 10px;
         }    
-    }   
+    }
+    
+    @media (min-width:1230px) {
+        margin-bottom: 38px;    
+        text-shadow: 0 3px 42px #ffffff;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 400;
+
+        li {     
+            position: relative;   
+            padding-bottom: 3px;
+            padding-left: 30px;
+    
+            &::after {
+                position: absolute;
+                content: "";
+                height: 3px;
+                width: 15px;
+                background-color: #000000;
+                top: 18px;
+                left: 0;
+            }    
+        }         
+    }
+}
+
+.button-skill {
+    display: none;
+      
+    @media (min-width:1230px) {
+        display: block;
+    }
 }
 
 .section-skills-contacts { 
-    width: 45%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 85px;
+    width: 100%;
+
+    @media (min-width:798px) {
+        width: 45%;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    
+    @media (min-width:1230px) {
+        width: 45%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 85px;
+        
+    }
 }
 
 .section-skills-contacts-title {
-    margin-bottom: 19px;
+    margin-bottom: 15px;
+
+    @media (min-width:798px) {
+        margin-bottom: 5px;
+   
+    }
+    
+    @media (min-width:1230px) {
+        margin-bottom: 15px;
+        
+    }
 }
 
 .skills-icon-links { 
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
+
+    @media (min-width:798px) {
+        justify-content: start;
+
+    }
+    
+    @media (min-width:1230px) {
+        align-items: center;
+    }
+
 }
 
 .skills-icon-links-social-github {

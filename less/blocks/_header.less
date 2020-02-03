@@ -1,20 +1,55 @@
 .header {
-    max-width: 1600px;
+    max-width: 320px;
     margin: 0 auto;
-    padding: 60px 0 240px; 
-    background-image: url("../img/bg/bg-header.jpg");
-    background-repeat: repeat-y;
-    background-position: center;
+    padding: 0 0 100px; 
+
+
+    @media (min-width:798px) {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0 0 85px; 
+
+    }
+    
+    @media (min-width:1230px) {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 60px 0 240px; 
+        background-image: url("../img/bg/bg-header.jpg");
+        background-repeat: repeat-y;
+        background-position: center;
+        
+    }
 }
 
 .wrapper-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+
+    @media (min-width:798px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    @media (min-width:1230px) {
+        
+    }
 }
 
 .header-content {
-    max-width: 50%;
+    max-width: 100%;
     z-index: 1;
+
+    @media (min-width:798px) {
+        max-width: 50%;
+        z-index: 1;
+    }
+    
+    @media (min-width:1230px) {
+        
+    }
 }
 
 .name {
@@ -24,7 +59,7 @@
 .header-name {    
     position: relative;
     color: #000000;
-    font-size: 80px;
+    font-size: 42px;
     font-weight: 800;
     z-index: 2;
     line-height: 1.1;
@@ -40,56 +75,121 @@
         background-color: #fbdc4d;
         z-index: -1;
     }   
+
+    @media (min-width:798px) {
+        font-size: 52px;
+
+    }
+    
+    @media (min-width:1230px) {
+        font-size: 80px;
+    }
  
  }
 
 .content-desc p { 
-    margin-bottom: 35px;
+    margin-bottom: 0;
     text-shadow: 0 3px 42px #ffffff;
     color: #393f47;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 36px;
+    line-height: 30px;
 
     &::selection {
         background-color: #fbdc4d;
     }
+
+    @media (min-width:798px) {
+
+    }
+    
+    @media (min-width:1230px) {
+        margin-bottom: 35px;
+        text-shadow: 0 3px 42px #ffffff;
+        color: #393f47;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    
+        &::selection {
+            background-color: #fbdc4d;
+        }
+    }
 }
-
-
 
 .header-photo {
     position: relative;
-    width: 50%;
-    max-width: 460px;
-    max-height: 410px;  
-    overflow: hidden; 
-    
+    width: 100%;
+    max-width: 290px;
+    max-height: 290px;  
+    overflow: hidden;
+    margin-bottom: 55px;
+        
     img {
-        transform: translateY(-80px);
-    }
+        transform: translateY(-40px);
+    } 
+       
+    @media (min-width:798px) {
+        margin-bottom: 0;
 
-    &::after {
-        bottom: 0;
-        left: 2%;
-        content: " ";
-        position: absolute;
-        width: 440px;
-        height: 510px;
-        background-image: linear-gradient(to top, #f4f8f9 0%, rgba(244, 248, 249, 0) 100%);
-        opacity: 0.3;
-        transform: translate(140px, 130px);
-        z-index: -1;
-    }     
+        img {
+            transform: translateY(-80px);
+        }
+    }
+    
+    @media (min-width:1230px) {
+        position: relative;
+        width: 50%;
+        max-width: 460px;
+        max-height: 410px;  
+        overflow: hidden; 
+        
+        img {
+            transform: translateY(-80px);
+        }
+    
+        &::after {
+            bottom: 0;
+            left: 2%;
+            content: " ";
+            position: absolute;
+            width: 440px;
+            height: 510px;
+            background-image: linear-gradient(to top, #f4f8f9 0%, rgba(244, 248, 249, 0) 100%);
+            opacity: 0.3;
+            transform: translate(140px, 130px);
+            z-index: -1;
+        }   
+        
+    }
 }
 
 .header-buttons {
-    display: flex;
+    display: none;
+
+    @media (min-width:798px) {
+
+    }
+    
+    @media (min-width:1230px) {
+        display: flex;
+    }
 }
 
 .main-img {
-    margin-top: -110px;
     z-index: 1;
-    max-width: 1600px;
-    margin: 0 auto;
+    margin-top: -30px;
+    max-width: 570px;
+        
+    @media (min-width:798px) {
+        z-index: 1;
+        max-width: 770px;
+        margin-left: 0;
+    }
+    
+    @media (min-width:1230px) {
+        margin-top: -120px;
+        z-index: 1;
+        max-width: 1600px;            
+    }
 }

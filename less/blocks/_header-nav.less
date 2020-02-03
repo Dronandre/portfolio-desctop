@@ -1,9 +1,24 @@
 .header-nav { 
-    max-width: 1400px;
-    margin: 0 auto 173px;
+    max-width: 320px;
+    padding: 25px 15px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;  
+ 
+
+    @media (min-width:798px) {
+        max-width: 768px;
+        padding: 35px 30px;
+        margin: 0 auto 40px;
+       
+    }
+    
+    @media (min-width:1230px) {
+        max-width: 1400px;
+        margin: 0 auto 173px;
+        padding: 0;             
+    }
 }
 
 .header-logo { 
@@ -12,6 +27,14 @@
     font-size: 42px;
     font-weight: 800;
     z-index: 1;
+
+    @media (min-width:798px) {
+
+    }
+    
+    @media (min-width:1230px) {
+        
+    }
 }
 
 .header-logo::before {
@@ -27,14 +50,23 @@
 }
 
 .header-list {
-    display: flex;
-      
-    a {
-        margin-right: 75px;
+    display: none;
 
-        &:last-child {
-            margin-right: 0;
+    @media (min-width:798px) {
+
+    }
+    
+    @media (min-width:1230px) {
+        display: flex;
+      
+        a {
+            margin-right: 75px;
+    
+            &:last-child {
+                margin-right: 0;
+            }
         }
+        
     }
 }
 
@@ -74,7 +106,15 @@
 
 
 .header-icons { 
-    display: flex;   
+    display: none;
+
+    @media (min-width:798px) {
+
+    }
+    
+    @media (min-width:1230px) {
+        display: flex;
+    }   
 }
 
 .header-icons-links {
@@ -119,7 +159,20 @@
         &:active {
             color: #45668e;
         } 
+    }    
+}
+
+.icon-menu {
+    cursor: pointer;
+    font-size: 25px;
+    color: #000000;
+
+    @media (min-width:798px) {
+
     }
     
+    @media (min-width:1230px) {
+        display: none;
+    }
 }
 

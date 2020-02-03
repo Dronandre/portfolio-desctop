@@ -8,23 +8,34 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 #page-nav {
-    position: fixed;
-    right: 80px;
-    top: 50%;
-    z-index: 100;
+    display: none;
+   
 
-    li {
-        width: 14px;
-        height: 14px;
-        background-color: #89b4cb;
-        border-radius: 50%;
-        border: none;
-        margin-bottom: 25px;
-        transition: .5s;
+    @media (min-width:798px) {
+        display: none;
 
-        a {
-            display: block;
-            height: 100%;
+    }
+    
+    @media (min-width:1230px) {
+        display: block;
+        position: fixed;
+        right: 80px;
+        top: 50%;
+        z-index: 100;
+    
+        li {
+            width: 14px;
+            height: 14px;
+            background-color: #89b4cb;
+            border-radius: 50%;
+            border: none;
+            margin-bottom: 25px;
+            transition: .5s;
+    
+            a {
+                display: block;
+                height: 100%;
+            }
         }
     }
 }
@@ -38,16 +49,20 @@ a, a:hover {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 320px;
     margin: 0 auto;
-    padding: 0;
-}
+    padding: 0 15px;
 
-.medium-container {
-    max-width: 1140px;
-    margin: 0 auto;
+    @media (min-width:798px) {
+        max-width: 768px;
+        padding: 0 30px;
+    }
+    
+    @media (min-width:1230px) {
+        max-width: 1140px;
+        padding: 0;      
+    }
 }
-
 
 img {
     max-width: 100%;
@@ -76,8 +91,16 @@ ul {
 .title_content {    
     text-shadow: 0 3px 42px #ffffff;
     color: #000000;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
+
+    @media (min-width:798px) {
+        font-size: 32px;   
+    }
+    
+    @media (min-width:1230px) {
+        font-size: 40px;
+    }
 }
 
 
@@ -85,7 +108,7 @@ ul {
     display: inline-block;
     position: relative;
     color: #000000;
-    font-size: 64px;
+    font-size: 42px;
     font-weight: 800;
     z-index: 2;
 
@@ -100,12 +123,33 @@ ul {
         background-color: #fbdc4d;
         z-index: -1;
     }  
+
+    @media (min-width:798px) {
+        font-size: 52px;   
+    }
+    
+    @media (min-width:1230px) {
+        font-size: 64px;        
+    }
  }
 
  #backtop a {
-    color: #89b4cb;
-    position: fixed;
-    bottom: 40px;
-    right: 80px;
-    font-size: 40px;
+    display: none;
+    
+    @media (min-width:798px) {
+        display: none;
+    }
+    
+    @media (min-width:1230px) {
+        display: block;
+        color: #89b4cb;
+        position: fixed;
+        bottom: 40px;
+        right: 80px;
+        font-size: 40px;        
+    }
  }
+ 
+.none {
+    display: none;
+}

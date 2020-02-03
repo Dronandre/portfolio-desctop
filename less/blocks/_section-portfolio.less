@@ -1,56 +1,113 @@
 .section-portfolio {
-    padding: 90px 0 60px;
+    padding: 65px 0 95px;
     background-color: #f4f8f9;
+
+    @media (min-width:798px) {
+        padding: 80px 0 75px;
+    }
+    
+    @media (min-width:1230px) {
+        padding: 90px 0 20px;
+    }
  }
 
 .section-portfolio-title {
     margin-bottom: 45px;
+
+    @media (min-width:798px) {
+        margin-bottom: 50px;
+    }
+    
+    @media (min-width:1230px) {
+        margin-bottom: 45px;
+    }
  }
 
 .section-portfolio-list {
-    display: flex;
-    margin-bottom: 47px;
-   
-    li {
-        margin-right: 72px;
+   display: none;
 
-        &:last-child {
-            margin-right: 0;
-        }   
-    }    
+    @media (min-width:798px) {
+        display: flex;
+        margin-bottom: 47px;
+    
+        li {
+            margin-right: 50px;
+
+            &:last-child {
+                margin-right: 0;
+            }   
+        } 
+    }
+    
+    @media (min-width:1230px) {
+               
+        li {
+            margin-right: 72px;             
+        } 
+    }
 } 
 
  .portfolio-list-title {
-    color: #8fa5ae;
-    font-size: 28px;
-    font-weight: 800;
-
-    &:hover {
-        color: #ed574f;
+      
+    @media (min-width:798px) {
+        color: #8fa5ae;
+        font-size: 24px;
+        font-weight: 800;
+    
+        &:hover {
+            color: #ed574f;
+        }
+    
+        &:active {
+            color: #000000;
+        }  
     }
-
-    &:active {
-        color: #000000;
-    }    
+    
+    @media (min-width:1230px) {
+        font-size: 28px;        
+    }
  }
 
- .active {     
-    color: #000000;     
-}
+ 
 
 .section-portfolio-row {
-   padding-bottom: 65px;
    justify-content: space-between;
    flex-wrap: wrap;
-  }
+}
 
 .portfolio-wrapper {
-    max-width: 550px;
-    width: 49%;
+    max-width: 290px;
+    width: 100%;
+    margin-bottom: 40px;
 
     &&--small {
-        max-width: 360px;
-        width: 32%;
+        max-width: 290px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    @media (min-width:798px) {
+        margin-bottom: 40px;
+        max-width: 338px;
+        width: 49%;   
+    
+        &&--small {
+            max-width: 338px;
+            width: 49%;
+            margin-bottom: 40px;
+        }
+    }
+    
+    @media (min-width:1230px) {
+        max-width: 550px;
+        width: 49%;
+        margin-bottom: 65px;        
+    
+        &&--small {
+            max-width: 360px;
+            width: 32%;
+            margin-bottom: 40px;
+        }
     }
 }
 
@@ -59,7 +116,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;   
+    margin-bottom: 20px;   
          
 
     &:hover::before  {
@@ -74,12 +131,21 @@
 
     &:active::before  {
         display: block;                      
-    }      
-    &:active {
+    }   
 
+    &:active {
         .hover-link {
             display: inline-block;                                                             
         }
+    }
+
+    @media (min-width:798px) {
+   
+    }
+    
+    @media (min-width:1230px) {
+        margin-bottom: 30px;   
+        
     }
  } 
 
@@ -101,71 +167,176 @@
     border-radius: 26px;
     background-color: #ffffff;
     color: #ea736d;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 800;
     z-index: 6;
 
     &:hover {
         color: #ffffff;
         background-color: #ea736d;
-
     }      
 
     &:active {
         color: #ffffff;
         background-color: #d4423b;
     }    
+
+    @media (min-width:798px) {
+        font-size: 18px; 
+    }
+    
+    @media (min-width:1230px) {
+        font-size: 22px;        
+    }
 }
 
 .portfolio-title-link {
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 15px;
     color: #000000;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
 
     &:hover {
         color: #ed574f;
-        font-size: 32px;
+        font-size: 22px;
         font-weight: 700;
         text-decoration: underline;
     }
 
     &:active {
         color: #ed574f;
-        font-size: 32px;
+        font-size: 22px;
         font-weight: 700;
         text-decoration: underline;
     }
 
     &&--small {
-        font-size: 26px;
+        font-size: 22px;
 
         &:hover {
             color: #ed574f;
-            font-size: 26px;
+            font-size: 22px;
             font-weight: 700;
             text-decoration: underline;
         }
     
         &:active {
             color: #ed574f;
-            font-size: 26px;
+            font-size: 22px;
             font-weight: 700;
             text-decoration: underline;
         }
+    }
+
+    @media (min-width:798px) {
+        font-size: 24px;
+        
+        &:hover {
+            font-size: 24px;
+        }
+    
+        &:active {
+            font-size: 24px;
+        }
+    
+        &&--small {
+            font-size: 24px;
+    
+            &:hover {
+                font-size: 24px;
+            }
+        
+            &:active {
+                font-size: 24px;
+            }
+        }        
+    } 
+        
+    @media (min-width:1230px) {
+        font-size: 32px;
+        
+        &:hover {
+            font-size: 32px;
+        }
+    
+        &:active {
+            font-size: 32px;
+        }
+    
+        &&--small {
+            font-size: 26px;
+    
+            &:hover {
+                font-size: 26px;
+            }
+        
+            &:active {
+                font-size: 26px;
+            }
+        }        
     }
 }
 
 .portfolio-desc {
     color: #000000;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 300;
 
     &&--small {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    @media (min-width:798px) {
+        font-size: 18px;
+        
+        &&--small {
+            font-size: 18px;
+        }
+    }
+    
+    @media (min-width:1230px) {
+        font-size: 22px;
+        
+        &&--small {
+            font-size: 20px;
+        }
+        
     }
 }
 
 .mix {
     display: none;
  }
+
+.active {     
+    color: #000000;     
+}
+
+.portfolio-link-mobile {
+    cursor: pointer;
+    text-shadow: 0 3px 42px #ffffff;
+    color: #039be5;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+
+    &:hover {
+        color: #039be5;
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: #ea655f;
+        text-decoration: underline;
+    }
+
+    @media (min-width:798px) {
+   
+    }
+    
+    @media (min-width:1230px) {
+        display: none;
+    }
+
+}
