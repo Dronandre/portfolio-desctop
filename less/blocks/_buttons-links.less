@@ -45,13 +45,13 @@
 }
 
 .button-submit {
-    padding: 15px 40px;
+    padding: 12px 73px;
     border: none;
     border-radius: 31px;
     background-color: #fbdc4d;
     color: #000000;
     font-family: 'M PLUS 1p', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     transition: background-color .3s ;
     cursor: pointer;
@@ -64,4 +64,14 @@
     &:active {
         background-color: #e1bc10; 
     } 
+
+    @media (min-width:798px) {
+        padding: 12px 95px;
+        font-size: 20px;
+    }
+
+    @media (min-width:1230px) {
+        padding: 12px 40px;
+        font-size: 22px;
+    }
 }

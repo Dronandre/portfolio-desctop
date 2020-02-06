@@ -4,7 +4,7 @@
 
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0; 
-    font-family: 'M PLUS 1p', sans-serif;    
+    font-family: 'M PLUS 1p', sans-serif;     
 }
 
 #page-nav {
@@ -112,6 +112,11 @@ ul {
     font-weight: 800;
     z-index: 2;
 
+    &&--small_mobile {
+        font-size: 38px;  
+        letter-spacing: -2px;      
+    }
+
     &::before {
         content: "";
         display: block;
@@ -125,20 +130,26 @@ ul {
     }  
 
     @media (min-width:798px) {
-        font-size: 52px;   
+        font-size: 52px;  
+        
+        &&--small_mobile {
+            font-size: 52px;  
+            letter-spacing: 1px;      
+        }
     }
     
     @media (min-width:1230px) {
-        font-size: 64px;        
+        font-size: 64px;  
+        
+        &&--small_mobile {
+            font-size: 64px;  
+            letter-spacing: 1px;      
+        }
     }
  }
 
  #backtop a {
-    display: none;
-    
-    @media (min-width:798px) {
-        display: none;
-    }
+     display: none;  
     
     @media (min-width:1230px) {
         display: block;
@@ -146,10 +157,10 @@ ul {
         position: fixed;
         bottom: 40px;
         right: 80px;
-        font-size: 40px;        
+        font-size: 40px;         
     }
- }
- 
+}
+
 .none {
     display: none;
 }
