@@ -5,15 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio_description</title>      
+    <title>Contacts</title>      
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500,700,800,900|Roboto:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">       
     
 </head>
 
-<body class="portfolio">
-    
-    <!-- Навигация -->        
+<body class="list">
+    <div id="overlay"></div>
+
+    <div class="wrapper-nav">
+        <!-- Mobile nav -->
+        <div id="mobile-nav" class="mobile-nav">
+            <a href="index.html" class="header-logo header-logo--mobile">АД</a>
+            <nav class="mobile-list">
+                <a href="./index.html" class="mobile-links">Услуги</a>
+                <a href="./portfolio.html" class="mobile-links">Работы</a>
+                <a href="./contacts.html" class="mobile-links">Контакты</a>                    
+            </nav>
+            <div class="mobile-icon-links">
+                <a href="https://github.com/Dronandre" target="_blanc" class="skills-icon-links-social-github"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/DRONANDRE" target="_blanc" class="skills-icon-links-social-telegram"><i class="fab fa-telegram"></i></a>
+                <a href="https://vk.com/andrey.dubrovsky87" target="_blanc" class="skills-icon-links-social-vk"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/dronandre?ref=bookmarks" target="_blanc" class="skills-icon-links-social-facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="mailto:dronandre@yandex.ru" class="link-email-mobile">dronandre@yandex.ru</a>    
+        </div> 
+    </div>
+        <!-- //Mobile nav -->        
+        <!-- Навигация -->        
     <div class="header-nav header-nav--portfolio">
         <a href="index.html" class="header-logo">АД</a>
         <nav class="header-list">
@@ -27,13 +47,11 @@
             <a href="https://github.com/Dronandre" target="_blanc" class="header-icons-links header-icons-links--github"><i class="fab fa-github"></i></a>
             <a href="https://vk.com/andrey.dubrovsky87" target="_blanc" class="header-icons-links header-icons-links--vk"><i class="fab fa-vk"></i></a>
         </div>
-        <a href="#" class="icon-menu"><i class="fas fa-bars"></i></a>
-
+        <div id="menu-togle" class="menu-icon">
+            <div class="menu-icon-line"></div>
+        </div>   
     </div>      
     <!-- //Навигация -->
-            
-  
-
     <main>
         <!-- section-portfolio -->
         <section class="section-portfolio section-portfolio--twolist" >
@@ -160,14 +178,15 @@
                             </div>
                         </div>              
                     </div>                                    
-                                      
+                                    
                     
                 </div> 
                 <a class="portfolio-link-mobile" href="#!">Смотреть все работы</a>               
             </div>
         </section>
-         <!-- //section-portfolio -->
+        <!-- //section-portfolio -->
     </main>
+    
 
     <footer class="footer-portfolio">
 

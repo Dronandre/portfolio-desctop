@@ -7,45 +7,70 @@ $(document).ready(function () {
         scrollThreshold: 0.5,
         filter: '',
         easing: "swing",
-        begin: function() {},
-        end: function() {},
-        scrollChange: function($currentListItem) {}
+        begin: function () {},
+        end: function () {},
+        scrollChange: function ($currentListItem) {}
     });
 
     $("#portfolio-project").mixItUp();
+
+    // menu-icon
+
+    const menuToggle = document.querySelector('#menu-togle');
+    const mobileNavContainer = document.querySelector('#mobile-nav');  
+    const divOverlay = document.querySelector('#overlay'); 
+    const divBody = document.querySelector('body'); 
     
 
-  // placeHolder
+    menuToggle.onclick = function(){
+        menuToggle.classList.toggle('menu-icon-active');
+        mobileNavContainer.classList.toggle('mobile-nav--active'); 
+        divOverlay.classList.toggle('active');  
+        divBody.classList.toggle('noscroll');                  
+    }
+
+    // placeHolder
 
     const formRows = document.querySelectorAll('.form-row')
-	const formRowsInputs = document.querySelectorAll(".form-input")
+    const formRowsInputs = document.querySelectorAll(".form-input")
 
-	for (let i = 0; i < formRows.length; i++) {
+    for (let i = 0; i < formRows.length; i++) {
 
-		formRows[i].addEventListener("click", function () {
-			const placeholderElement = this.querySelector(".fake-placeholder");
-			placeholderElement.classList.add("active");
-        })        
-	}
+        formRows[i].addEventListener("click", function () {
+            const placeholderElement = this.querySelector(".fake-placeholder");
+            placeholderElement.classList.add("active");
+        })
+    }
 
-	for (let i = 0; i < formRowsInputs.length; i++) {
-		formRowsInputs[i].addEventListener("blur", function() {
+    for (let i = 0; i < formRowsInputs.length; i++) {
 
-			const thisParent = this.parentElement;
+        formRowsInputs[i].addEventListener("keyup", function () {
 
-			if (this.value == '') {
-				thisParent.querySelector("span").classList.remove("active");
+            const thisParent = this.parentElement;
+            thisParent.querySelector("span").classList.add("active");
+            if (this.value == '') {
+                thisParent.querySelector("span").classList.remove("active");
             }
-		})
-    }  
-    
+            if (thisParent.querySelector(".error").classList.contains('active')) {
+                thisParent.querySelector("span").classList.add("active");
+
+            }
+        });
+        formRowsInputs[i].addEventListener("blur", function () {
+            const thisParent = this.parentElement;
+            if (this.value == '') {
+                thisParent.querySelector("span").classList.remove("active");
+            }
+        })
+    }
+
     //form validate
 
     $('#contact-form').validate({
         rules: {
             email: {
                 required: true,
-                email:true
+                email: true
             },
             theme: {
                 required: true
@@ -66,9 +91,9 @@ $(document).ready(function () {
                 required: "Отсутствует сообщение"
             }
         },
-        submitHandler: function(form) {
+        submitHandler: function (form) {
             ajaxFormSubmit();
-        }       
+        }
     });
 
     function ajaxFormSubmit() {
@@ -79,7 +104,7 @@ $(document).ready(function () {
             url: "php/mail.php",
             data: string,
 
-            success: function(html) {
+            success: function (html) {
                 $("#contact-form").slideUp(800);
                 $('#answer').html(html);
             }
@@ -88,13 +113,12 @@ $(document).ready(function () {
     }
 
     $('#backtop').hide();
-    
+
     $(window).scroll(function () {
 
-        if($(this).scrollTop() > 200){
+        if ($(this).scrollTop() > 200) {
             $('#backtop').fadeIn();
-        }
-        else{
+        } else {
             $('#backtop').fadeOut();
         }
     })

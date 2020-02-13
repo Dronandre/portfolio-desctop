@@ -1,25 +1,32 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0; 
-    font-family: 'M PLUS 1p', sans-serif;     
+    font-family: 'M PLUS 1p', sans-serif;        
+}
+
+.noscroll {
+    overflow: hidden;
 }
 
 #page-nav {
     display: none;
    
 
-    @media (min-width:798px) {
+    @media (min-width:768px) {
         display: none;
-
     }
     
-    @media (min-width:1230px) {
+    @media (min-width:1200px) {
         display: block;
         position: fixed;
-        right: 80px;
+        right: 20px;
         top: 50%;
         z-index: 100;
     
@@ -49,20 +56,21 @@ a, a:hover {
 }
 
 .container {
-    max-width: 320px;
+    width: 100%;
+    max-width:1140px;
     margin: 0 auto;
     padding: 0 15px;
 
-    @media (min-width:798px) {
-        max-width: 768px;
+    @media (min-width:768px) {        
         padding: 0 30px;
     }
     
-    @media (min-width:1230px) {
-        max-width: 1140px;
+    @media (min-width:1200px) {        
         padding: 0;      
     }
 }
+
+
 
 img {
     max-width: 100%;
@@ -94,11 +102,11 @@ ul {
     font-size: 30px;
     font-weight: 800;
 
-    @media (min-width:798px) {
+    @media (min-width:768px) {
         font-size: 32px;   
     }
     
-    @media (min-width:1230px) {
+    @media (min-width:1200px) {
         font-size: 40px;
     }
 }
@@ -129,7 +137,7 @@ ul {
         z-index: -1;
     }  
 
-    @media (min-width:798px) {
+    @media (min-width:768px) {
         font-size: 52px;  
         
         &&--small_mobile {
@@ -138,7 +146,7 @@ ul {
         }
     }
     
-    @media (min-width:1230px) {
+    @media (min-width:1200px) {
         font-size: 64px;  
         
         &&--small_mobile {
@@ -149,15 +157,16 @@ ul {
  }
 
  #backtop a {
-     display: none;  
+    display: block;
+    color: #89b4cb;
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    font-size: 25px;   
+     
     
-    @media (min-width:1230px) {
-        display: block;
-        color: #89b4cb;
-        position: fixed;
-        bottom: 40px;
-        right: 80px;
-        font-size: 40px;         
+    @media (min-width:1200px) {
+        display: none;             
     }
 }
 

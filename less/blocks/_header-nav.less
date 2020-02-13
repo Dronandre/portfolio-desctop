@@ -1,43 +1,50 @@
 .header-nav { 
-    max-width: 320px;
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
     padding: 25px 15px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;  
- 
-    @media (min-width:798px) {
-        max-width: 768px;
+    justify-content: space-between; 
+    overflow: hidden; 
+     
+    @media (min-width:768px) {
         padding: 35px 30px;
         margin: 0 auto 40px;       
     }
     
-    @media (min-width:1230px) {
-        max-width: 1400px;
+    @media (min-width:1200px) {
         margin: 0 auto 173px;
+        padding: 0 20px;  
+
+        &&--portfolio {
+            padding: 70px 20px 0;
+            margin-bottom: 0;            
+        }      
+    }
+
+    @media (min-width:1440px) {
         padding: 0;  
 
         &&--portfolio {
-            padding: 70px 0 0;
-            margin-bottom: 0;            
-        }      
+            padding: 70px 0 0;                  
+        } 
     }
 }
 
 .header-logo { 
+    display: inline-block;
     position: relative;
     color: #000000;
     font-size: 42px;
     font-weight: 800;
     z-index: 1;
 
-    @media (min-width:798px) {
-
+    &&--mobile {
+        margin-bottom: 35px;
     }
     
-    @media (min-width:1230px) {
-        
-    }
 }
 
 .header-logo::before {
@@ -55,11 +62,8 @@
 .header-list {
     display: none;
 
-    @media (min-width:798px) {
-
-    }
     
-    @media (min-width:1230px) {
+    @media (min-width:1200px) {
         display: flex;
       
         a {
@@ -106,16 +110,14 @@
     outline-style: dashed;
 }
 
-
-
 .header-icons { 
     display: none;
 
-    @media (min-width:798px) {
+    @media (min-width:768px) {
 
     }
     
-    @media (min-width:1230px) {
+    @media (min-width:1200px) {
         display: flex;
     }   
 }
@@ -125,10 +127,11 @@
     margin-right: 20px;
     display: block;
     font-size: 28px;
+    transition: .3s;
     
 
     &:last-child {
-        margin-right: 20px;
+        margin-right: 0;
     }
 
     &&--linked {        
@@ -165,17 +168,4 @@
     }    
 }
 
-.icon-menu {
-    cursor: pointer;
-    font-size: 30px;
-    color: #000000;
-
-    @media (min-width:798px) {
-
-    }
-    
-    @media (min-width:1230px) {
-        display: none;
-    }
-}
 
