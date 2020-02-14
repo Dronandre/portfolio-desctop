@@ -106,7 +106,7 @@ $(document).ready(function () {
 
             success: function (html) {
                 $("#contact-form").slideUp(800);
-                $('#answer').html(html);
+                // $('#answer').html(html);
             }
         });
         return false;
