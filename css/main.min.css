@@ -43,7 +43,7 @@ ul{list-style-type:none;margin:0;padding:0}
 .section-head{font-size:64px}
 .section-head.section-head--small_mobile{font-size:64px;letter-spacing:1px}
 }
-#backtop a{display:block;color:#89b4cb;position:fixed;bottom:40px;right:5px;font-size:25px}
+#backtop a{display:block;color:#89b4cb;position:fixed;bottom:40px;right:15px;font-size:25px}
 @media (min-width:1200px){
 #backtop a{display:none}
 }
