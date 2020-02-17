@@ -120,7 +120,16 @@ $(document).ready(function () {
             $('#backtop').fadeIn();
         } else {
             $('#backtop').fadeOut();
-        }
+        }        
     })
 
+    window.addEventListener('resize', function(){
+        menuToggle.classList.remove('menu-icon-active');
+        mobileNavContainer.classList.remove('mobile-nav--active'); 
+        divOverlay.classList.remove('active');  
+        divBody.classList.remove('noscroll');
+    }) 
+    
 })
+
+    
