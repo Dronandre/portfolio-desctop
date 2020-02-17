@@ -8,11 +8,17 @@
     <title>Portfolio</title>      
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,700,800,900&display=swap&subset=cyrillic-ext"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">       
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">       
     
 </head>
 
 <body>
+
+    <div id="overlay"></div>
+
+
     <ul id="page-nav">
         <li class="active">
             <a href="#header"></a>
@@ -29,13 +35,30 @@
     </ul>
 
     <header class="header" id="header">
+        <!-- Навигация мобильная -->
+        <div id="mobile-nav" class="mobile-nav">
+            <a href="index.html" class="header-logo header-logo--mobile">АД</a>
+            <nav class="mobile-list">
+                <a href="./index.html" class="mobile-links">Услуги</a>
+                <a href="./portfolio.html" class="mobile-links">Работы</a>
+                <a href="./contacts.html" class="mobile-links">Контакты</a>                    
+            </nav>
+            <div class="mobile-icon-links">
+                <a href="https://github.com/Dronandre" target="_blanc" class="skills-icon-links-social-github"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/DRONANDRE" target="_blanc" class="skills-icon-links-social-telegram"><i class="fab fa-telegram"></i></a>
+                <a href="https://vk.com/andrey.dubrovsky87" target="_blanc" class="skills-icon-links-social-vk"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/dronandre?ref=bookmarks" target="_blanc" class="skills-icon-links-social-facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="mailto:dronandre@yandex.ru" class="link-email-mobile">dronandre@yandex.ru</a>    
+        </div> 
+        <!-- //Навигация мобильная -->
         <!-- Навигация -->        
         <div class="header-nav">
             <a href="index.html" class="header-logo">АД</a>
             <nav class="header-list">
-                <a href="#" class="header-links">Главная</a>
+                <a href="./index.html" class="header-links">Главная</a>
                 <a href="./portfolio.html" class="header-links">Работы</a>
-                <a href="#contacts" class="header-links">Контакты</a>                    
+                <a href="./contacts.html" class="header-links">Контакты</a>                    
             </nav>
             <div class="header-icons">
                 <a href="https://www.linkedin.com/in/андрей-дубровский-814b44161/" target="_blanc" class="header-icons-links header-icons-links--linked"><i
@@ -43,8 +66,9 @@
                 <a href="https://github.com/Dronandre" target="_blanc" class="header-icons-links header-icons-links--github"><i class="fab fa-github"></i></a>
                 <a href="https://vk.com/andrey.dubrovsky87" target="_blanc" class="header-icons-links header-icons-links--vk"><i class="fab fa-vk"></i></a>
             </div>
-            <a href="#" class="icon-menu"><i class="fas fa-bars"></i></a>
-
+            <div id="menu-togle" class="menu-icon">
+                <div class="menu-icon-line"></div>
+            </div>
         </div>      
         <!-- //Навигация -->
         <!-- Контент шапки -->
@@ -59,8 +83,8 @@
                             соблюдением сроков и выполнением ТЗ. </p>
                     </div>
                     <div class="header-buttons">
-                        <a href="" class="offer-yellow">Познакомиться</a>
-                        <a href="#contacts" class="header-offer-contacts">Контакты</a>
+                        <a href="./portfolio.html" class="offer-yellow">Познакомиться</a>
+                        <a href="./Резюме Дубровский.pdf" download="Резюме Дубровский" class="header-offer-contacts">Скачать резюме</a>
                     </div>
                 </div>
                 <div class="header-photo">
@@ -121,35 +145,35 @@
                 <div class="section-portfolio-title">
                     <h2 class="section-head">Портфолио</h2>
                 </div>
-                <ul class="section-portfolio-list">
+                <!-- <ul class="section-portfolio-list">
                     <li><a href="#!" data-filter="all" class="portfolio-list-title active filter">Все работы</a></li >
                     <li><a href="#!" data-filter=".boot" class="portfolio-list-title filter">Bootstrap</a></li>
                     <li><a href="#!" data-filter=".wp" class="portfolio-list-title filter">WordPress</a></li>
                     <li><a href="#!" data-filter=".front" class="portfolio-list-title filter">Frontend</a></li>
-                </ul>
+                </ul> -->
                 <div id="portfolio-project">
                     <div class="section-portfolio-row row">
                         <div class="portfolio-wrapper mix boot">
-                            <div class="porfolio-img">
-                                <img src="./img/portfolio/forest.jpg" alt="">
-                                <a href="#!" class="hover-link">Смотреть проект</a>
-                            </div>
-                            <a href="#!" class="portfolio-title-link">Верстка “Форест тревел”</a>
+                            <a href="./forest/index.html" class="porfolio-img">
+                                <img src="./img/portfolio/Forest.jpg" alt="">
+                                <span class="hover-link">Смотреть проект</span>
+                            </a>
+                            <a href="./forest/index.html" class="portfolio-title-link">Верстка “Форест тревел”</a>
                             <div class="portfolio-desc">
                                 <p>Верстка многостраничного сайта. </p>
                             </div>
                         </div>
                         <div class="portfolio-wrapper mix wp">
-                            <div class="porfolio-img">
-                                <img src="./img/portfolio/unit.jpg" alt="">
-                                <a href="#!" class="hover-link">Смотреть проект</a>
-                            </div>
-                            <a href="#!" class="portfolio-title-link">Сайт для коворгинга "ЮНИТ"</a>
+                            <a href="./unit-html/index.html" class="porfolio-img">
+                                <img src="./img/portfolio/UNIT.jpg" alt="">
+                                <span h class="hover-link">Смотреть проект</span>
+                            </a>
+                            <a href="./unit-html/index.html" class="portfolio-title-link">Сайт для коворгинга "ЮНИТ"</a>
                             <div class="portfolio-desc">
                                 <p>Верстка лендинга с адаптивом.</p>
                             </div>
                         </div>
-                        <div class="portfolio-wrapper portfolio-wrapper--small mix boot">
+                        <!-- <div class="portfolio-wrapper portfolio-wrapper--small mix boot">
                             <div class="porfolio-img">
                                 <img src="./img/portfolio/3.jpg" alt="">
                                 <a href="#!" class="hover-link">Смотреть проект</a>
@@ -178,10 +202,10 @@
                             <div class="portfolio-desc portfolio-desc--small">
                                 <p>Верстка многостраничного сайта. </p>
                             </div>
-                        </div>                            
+                        </div>                             -->
                     </div>             
                 </div> 
-                <a class="portfolio-link-mobile" href="#!">Смотреть все работы</a>               
+                <a class="portfolio-link-mobile" href="./portfolio.html">Смотреть все работы</a>               
             </div>
         </section>
          <!-- //section-portfolio -->
@@ -253,11 +277,7 @@
                                 <img src="./img/timing/diamond.png" alt="">                           
                             </div>  
                         </div> 
-                    </div>  
-                    
-                                  
-                                        
-                    
+                    </div>             
                     <!-- //блоки для контента -->
                 </div>
             </div>
@@ -301,7 +321,7 @@
                         </div>                     
                     </div>
                     <div class="feadback-form">
-                        <form class="cotnacts-form" action="" id="contact-form" autocomplete="off">
+                        <form class="cotnacts-form "action="" id="contact-form">
                             <input type="hidden" name="project_name" value="dronandre.site">  
                             <input type="hidden" name="admin_email" value="dronandre@yandex.ru">   
                             <input type="hidden" name="email_from" value="info@dronandre.site">                      
