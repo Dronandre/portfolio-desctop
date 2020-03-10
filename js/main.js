@@ -105,8 +105,9 @@ $(document).ready(function () {
             data: string,
 
             success: function (html) {
+                // window.location.href = "thankyou.html";
                 $("#contact-form").slideUp(800);
-                // $('#answer').html(html);
+                $('#answer').html(html);
             }
         });
         return false;

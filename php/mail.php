@@ -56,14 +56,14 @@ mail($admin_email, $form_subject, $message, $headers );
 // Saving user data in file
 send_user_data_in_txt_file ($message);
 
-header('location: ../thankyou.html');
+// header('location: ../thankyou.html');
 
-// echo "<div class='contact-form__success'>
-// 		<h2>Форма отправлена успешно!<br>
-// 		Мы свяжемся с&nbsp;Вами в&nbsp;ближайшее время!
-// 		</h2>
+echo "<div class='contact-form__success'>
+		<h2>Форма отправлена успешно!<br>
+		Мы свяжемся с&nbsp;Вами в&nbsp;ближайшее время!
+		</h2>
 
-// 	  </div> ";
+	  </div> ";
 
 ?>
 
