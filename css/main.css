@@ -1,14 +1,10 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\000031}}
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\000035}}
 html {
   scroll-behavior: smooth;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\000039}}
 body,
 h1,
 h2,
@@ -20,22 +16,18 @@ p {
   margin: 0;
   font-family: 'M PLUS 1p', sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000314}}
 .noscroll {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000318}}
 #page-nav {
   display: none;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000322}}
   #page-nav {
     display: none;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000326}}
   #page-nav {
     display: block;
     position: fixed;
@@ -43,37 +35,29 @@ p {
     top: 50%;
     z-index: 100;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000333}}
   #page-nav li {
     width: 14px;
     height: 14px;
     background-color: #89b4cb;
-    -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    border-radius: 50%;
     border: none;
     margin-bottom: 25px;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    -moz-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000342}}
   #page-nav li a {
     display: block;
     height: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000350}}
 #page-nav li.active {
   background-color: #ea736d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000354}}
 a,
 a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000358}}
 .container {
   width: 100%;
   max-width: 1140px;
@@ -81,46 +65,36 @@ a:hover {
   padding: 0 15px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000364}}
   .container {
     padding: 0 30px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000368}}
   .container {
     padding: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000375}}
 img {
   max-width: 100%;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000380}}
 button,
 input {
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000384}}
 button {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000388}}
 .row {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000392}}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\0000399}}
 .title_content {
   text-shadow: 0 3px 42px #ffffff;
   color: #000000;
@@ -128,18 +102,15 @@ ul {
   font-weight: 800;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003105}}
   .title_content {
     font-size: 32px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003109}}
   .title_content {
     font-size: 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003115}}
 .section-head {
   display: inline-block;
   position: relative;
@@ -148,12 +119,10 @@ ul {
   font-weight: 800;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003123}}
 .section-head.section-head--small_mobile {
   font-size: 38px;
   letter-spacing: -2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003128}}
 .section-head::before {
   content: "";
   display: block;
@@ -166,28 +135,23 @@ ul {
   z-index: -1;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003140}}
   .section-head {
     font-size: 52px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003143}}
   .section-head.section-head--small_mobile {
     font-size: 52px;
     letter-spacing: 1px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003149}}
   .section-head {
     font-size: 64px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003152}}
   .section-head.section-head--small_mobile {
     font-size: 64px;
     letter-spacing: 1px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003159}}
 #backtop a {
   display: block;
   color: #89b4cb;
@@ -197,16 +161,13 @@ ul {
   font-size: 25px;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003168}}
   #backtop a {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_base\.less}line{font-family:\00003173}}
 .none {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\000031}}
 .header {
   position: relative;
   width: 100%;
@@ -216,14 +177,12 @@ ul {
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000310}}
   .header {
     margin: 0 auto;
     padding: 0 0 85px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000315}}
   .header {
     margin: 0 auto;
     padding: 60px 0 120px;
@@ -232,65 +191,45 @@ ul {
     background-position: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000325}}
 .wrapper-content {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-  -webkit-flex-direction: column-reverse;
-     -moz-box-orient: vertical;
-     -moz-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000332}}
   .wrapper-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-       -moz-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000342}}
 .header-content {
   max-width: 100%;
   z-index: 1;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000346}}
   .header-content {
     max-width: 50%;
     z-index: 1;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000356}}
 .name {
   margin-bottom: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000360}}
 .header-name {
   position: relative;
   color: #000000;
@@ -299,7 +238,6 @@ ul {
   z-index: 2;
   line-height: 1.1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000368}}
 .header-name::before {
   content: "";
   display: block;
@@ -312,18 +250,15 @@ ul {
   z-index: -1;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000380}}
   .header-name {
     font-size: 52px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000385}}
   .header-name {
     font-size: 80px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000391}}
 .content-desc p {
   margin-bottom: 0;
   text-shadow: 0 3px 42px #ffffff;
@@ -332,7 +267,6 @@ ul {
   font-weight: 500;
   line-height: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\0000399}}
 .content-desc p::-moz-selection {
   background-color: #fbdc4d;
 }
@@ -340,7 +274,6 @@ ul {
   background-color: #fbdc4d;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003103}}
   .content-desc p {
     margin-bottom: 35px;
     text-shadow: 0 3px 42px #ffffff;
@@ -349,7 +282,6 @@ ul {
     font-weight: 500;
     line-height: 36px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003111}}
   .content-desc p::-moz-selection {
     background-color: #fbdc4d;
   }
@@ -357,7 +289,6 @@ ul {
     background-color: #fbdc4d;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003117}}
 .header-photo {
   position: relative;
   width: 100%;
@@ -365,34 +296,24 @@ ul {
   max-height: 290px;
   overflow: hidden;
   margin-bottom: 55px;
-  -webkit-border-radius: 5%;
-     -moz-border-radius: 5%;
-          border-radius: 5%;
+  border-radius: 5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003126}}
 .header-photo img {
   -webkit-transform: translateY(-40px);
-     -moz-transform: translateY(-40px);
-      -ms-transform: translateY(-40px);
-       -o-transform: translateY(-40px);
-          transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  transform: translateY(-40px);
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003130}}
   .header-photo {
     margin-bottom: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003133}}
   .header-photo img {
     -webkit-transform: translateY(-80px);
-       -moz-transform: translateY(-80px);
-        -ms-transform: translateY(-80px);
-         -o-transform: translateY(-80px);
-            transform: translateY(-80px);
+    -ms-transform: translateY(-80px);
+    transform: translateY(-80px);
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003138}}
   .header-photo {
     position: relative;
     width: 50%;
@@ -400,30 +321,22 @@ ul {
     max-height: 410px;
     overflow: hidden;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003145}}
   .header-photo img {
     -webkit-transform: translateY(-80px);
-       -moz-transform: translateY(-80px);
-        -ms-transform: translateY(-80px);
-         -o-transform: translateY(-80px);
-            transform: translateY(-80px);
+    -ms-transform: translateY(-80px);
+    transform: translateY(-80px);
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003151}}
 .header-buttons {
   display: none;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003154}}
   .header-buttons {
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003159}}
 .main-img {
   z-index: 1;
   margin-top: -30px;
@@ -431,19 +344,16 @@ ul {
   max-width: 1600px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003165}}
   .main-img {
     margin-top: 0;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header\.less}line{font-family:\00003170}}
   .main-img {
     margin-top: -120px;
     max-width: 1600px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\000031}}
 .header-nav {
   position: relative;
   width: 100%;
@@ -451,52 +361,40 @@ ul {
   padding: 25px 15px;
   margin: 0 auto;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   overflow: hidden;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000312}}
   .header-nav {
     padding: 35px 30px;
     margin: 0 auto 40px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000317}}
   .header-nav {
     margin: 0 auto 173px;
     padding: 0 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000321}}
   .header-nav.header-nav--portfolio {
     padding: 70px 20px 0;
     margin-bottom: 0;
   }
 }
 @media (min-width: 1440px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000327}}
   .header-nav {
     padding: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000330}}
   .header-nav.header-nav--portfolio {
     padding: 70px 0 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000336}}
 .header-logo {
   display: inline-block;
   position: relative;
@@ -505,11 +403,9 @@ ul {
   font-weight: 800;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000344}}
 .header-logo.header-logo--mobile {
   margin-bottom: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000350}}
 .header-logo::before {
   content: "";
   display: block;
@@ -521,29 +417,22 @@ ul {
   background-color: #fbdc4d;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000362}}
 .header-list {
   display: none;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000366}}
   .header-list {
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: flex;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000369}}
   .header-list a {
     margin-right: 75px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000372}}
   .header-list a:last-child {
     margin-right: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000380}}
 .header-links {
   position: relative;
   z-index: 2;
@@ -551,7 +440,6 @@ ul {
   font-size: 20px;
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\0000387}}
 .header-links::after {
   position: absolute;
   content: "";
@@ -560,133 +448,102 @@ ul {
   width: 0;
   height: 3px;
   background-color: #fbdc4d;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003100}}
 .header-links:hover::after {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003104}}
 .header-links:active {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003113}}
 .header-icons {
   display: none;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003120}}
   .header-icons {
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003125}}
 .header-icons-links {
   color: #000000;
   margin-right: 20px;
   display: block;
   font-size: 28px;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  -moz-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003133}}
 .header-icons-links:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003139}}
 .header-icons-links.header-icons-links--linked:hover {
   color: #0077b5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003143}}
 .header-icons-links.header-icons-links--linked:active {
   color: #0077b5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003150}}
 .header-icons-links.header-icons-links--github:hover {
   color: #6ec747;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003154}}
 .header-icons-links.header-icons-links--github:active {
   color: #6ec747;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003161}}
 .header-icons-links.header-icons-links--vk:hover {
   color: #45668e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_header-nav\.less}line{font-family:\00003165}}
 .header-icons-links.header-icons-links--vk:active {
   color: #45668e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\000031}}
 .offer-yellow {
   padding: 12px 42px;
   text-decoration: none;
   display: inline-block;
-  -webkit-border-radius: 31px;
-     -moz-border-radius: 31px;
-          border-radius: 31px;
+  border-radius: 31px;
   background-color: #fbdc4d;
   color: #000000;
   font-size: 22px;
   font-weight: 700;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
-  -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000312}}
 .offer-yellow:hover {
   background-color: #ffd200;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000316}}
 .offer-yellow:active {
   background-color: #e1bc10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000322}}
 .header-offer-contacts {
   margin-left: 20px;
   padding: 12px 42px;
   text-decoration: none;
   display: inline-block;
-  -webkit-border-radius: 31px;
-     -moz-border-radius: 31px;
-          border-radius: 31px;
+  border-radius: 31px;
   border: 4px solid #464646;
   color: #464646;
   font-size: 22px;
   font-weight: 700;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
-  -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000335}}
 .header-offer-contacts:hover {
   border: 4px solid #797979;
   color: #797979;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000340}}
 .header-offer-contacts:active {
   border: 4px solid #181818;
   color: #181818;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000347}}
 .button-submit {
   padding: 12px 73px;
   border: none;
-  -webkit-border-radius: 31px;
-     -moz-border-radius: 31px;
-          border-radius: 31px;
+  border-radius: 31px;
   background-color: #fbdc4d;
   color: #000000;
   font-family: 'M PLUS 1p', sans-serif;
@@ -694,74 +551,55 @@ ul {
   font-weight: 700;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
-  -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000360}}
 .button-submit:hover {
   background-color: #ffd200;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000364}}
 .button-submit:active {
   background-color: #e1bc10;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000368}}
   .button-submit {
     padding: 12px 95px;
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_buttons-links\.less}line{font-family:\0000373}}
   .button-submit {
     padding: 12px 40px;
     font-size: 22px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\000031}}
 .wrapper-skill {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\000035}}
   .wrapper-skill {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000310}}
 .section-skills-desc {
   width: 100%;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000313}}
   .section-skills-desc {
     width: 53%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000318}}
 .section-skills-desc-title {
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000322}}
 .content-skills {
   margin-bottom: 20px;
   text-shadow: 0 3px 42px #ffffff;
@@ -769,24 +607,20 @@ ul {
   font-size: 18px;
   font-weight: 500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000329}}
 .content-skills li {
   padding-bottom: 10px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000333}}
   .content-skills {
     margin-bottom: 0;
     font-size: 18px;
     font-weight: 400;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000338}}
   .content-skills li {
     padding-bottom: 10px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000343}}
   .content-skills {
     margin-bottom: 38px;
     text-shadow: 0 3px 42px #ffffff;
@@ -794,13 +628,11 @@ ul {
     font-size: 24px;
     font-weight: 400;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000350}}
   .content-skills li {
     position: relative;
     padding-bottom: 3px;
     padding-left: 30px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000355}}
   .content-skills li::after {
     position: absolute;
     content: "";
@@ -811,352 +643,270 @@ ul {
     left: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000368}}
 .button-skill {
   display: none;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000371}}
   .button-skill {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000376}}
 .section-skills-contacts {
   width: 100%;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000379}}
   .section-skills-contacts {
     width: 45%;
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-       -moz-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000386}}
   .section-skills-contacts {
     width: 45%;
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-       -moz-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     padding-right: 85px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000395}}
 .section-skills-contacts-title {
   margin-bottom: 15px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\0000398}}
   .section-skills-contacts-title {
     margin-bottom: 5px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003103}}
   .section-skills-contacts-title {
     margin-bottom: 15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003109}}
 .skills-icon-links {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 10px;
   max-width: 290px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003116}}
   .skills-icon-links {
     -webkit-box-pack: start;
-    -webkit-justify-content: start;
-       -moz-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003121}}
   .skills-icon-links {
     -webkit-box-align: center;
-    -webkit-align-items: center;
-       -moz-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003127}}
 .skills-icon-links-social-github {
   font-size: 48px;
   color: #000;
   margin-right: 20px;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003134}}
 .skills-icon-links-social-github:hover {
   color: #6ec747;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003138}}
 .skills-icon-links-social-github:active {
   color: #6ec747;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003144}}
 .skills-icon-links-social-telegram {
   font-size: 48px;
   color: #039be5;
   margin-right: 20px;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003151}}
 .skills-icon-links-social-telegram:hover {
   color: #14628a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003154}}
 .skills-icon-links-social-telegram:active {
   color: #14628a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003160}}
 .skills-icon-links-social-vk {
   text-align: center;
   width: 48px;
   height: 48px;
   font-size: 32px;
   background-color: #4d76a1;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   color: #ffffff;
   margin-right: 20px;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003171}}
 .skills-icon-links-social-vk:hover {
   background-color: #0c3868;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003175}}
 .skills-icon-links-social-vk:active {
   background-color: #0c3868;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003180}}
 .skills-icon-links-social-facebook {
   text-align: center;
   width: 48px;
   height: 48px;
   font-size: 32px;
   background-color: #3b5998;
-  -webkit-border-radius: 50%;
-     -moz-border-radius: 50%;
-          border-radius: 50%;
+  border-radius: 50%;
   color: #ffffff;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003190}}
 .skills-icon-links-social-facebook:hover {
   background-color: #688cda;
   color: #5a5a5a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003195}}
 .skills-icon-links-social-facebook:active {
   background-color: #688cda;
   color: #5a5a5a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003201}}
 .link-email {
   text-shadow: 0 3px 42px #ffffff;
   color: #000000;
   font-size: 24px;
   font-weight: 400;
   text-decoration: underline;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  -moz-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003209}}
 .link-email:hover {
   color: #039be5;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-skills\.less}line{font-family:\00003214}}
 .link-email:active {
   color: #ea655f;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\000031}}
 .section-portfolio {
   padding: 65px 0 95px;
   background-color: #f4f8f9;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\000035}}
   .section-portfolio {
     padding: 80px 0 75px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\000039}}
   .section-portfolio {
     padding: 90px 0 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000312}}
   .section-portfolio.section-portfolio--twolist {
     padding: 100px 0 120px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000318}}
 .section-portfolio-title {
   margin-bottom: 45px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000321}}
   .section-portfolio-title {
     margin-bottom: 50px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000325}}
   .section-portfolio-title {
     margin-bottom: 60px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000328}}
   .section-portfolio-title.section-portfolio-title--center {
     text-align: center;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000334}}
 .section-portfolio-list {
   display: none;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000337}}
   .section-portfolio-list {
     display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 47px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000341}}
   .section-portfolio-list li {
     margin-right: 50px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000344}}
   .section-portfolio-list li:last-child {
     margin-right: 0;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000352}}
   .section-portfolio-list li {
     margin-right: 72px;
   }
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000360}}
   .portfolio-list-title {
     color: #8fa5ae;
     font-size: 24px;
     font-weight: 800;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    -moz-transition: .5s;
-    transition: .5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000366}}
   .portfolio-list-title:hover {
     color: #ed574f;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000370}}
   .portfolio-list-title:active {
     color: #000000;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000375}}
   .portfolio-list-title {
     font-size: 28px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000382}}
 .section-portfolio-row {
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   max-width: 550px;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000388}}
   .section-portfolio-row {
     max-width: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000393}}
 .portfolio-wrapper {
   max-width: 550px;
   width: 100%;
   margin-bottom: 60px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000398}}
 .portfolio-wrapper.portfolio-wrapper--small {
   max-width: 290px;
   width: 100%;
   margin-bottom: 40px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003104}}
   .portfolio-wrapper {
     margin-bottom: 40px;
     width: 49%;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003108}}
   .portfolio-wrapper.portfolio-wrapper--small {
     max-width: 338px;
     width: 49%;
@@ -1164,60 +914,45 @@ ul {
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003115}}
   .portfolio-wrapper {
     margin-bottom: 65px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003118}}
   .portfolio-wrapper.portfolio-wrapper--small {
     max-width: 360px;
     width: 32%;
     margin-bottom: 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003126}}
 .porfolio-img {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003134}}
 .porfolio-img:hover::before {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003139}}
 .porfolio-img:hover .hover-link {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003144}}
 .porfolio-img:active::before {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003149}}
 .porfolio-img:active .hover-link {
   display: inline-block;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003154}}
   .porfolio-img {
     margin-bottom: 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003159}}
 .porfolio-img::before {
   content: "";
   display: none;
@@ -1228,84 +963,69 @@ ul {
   height: 100%;
   background-color: rgba(251, 219, 77, 0.85);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003170}}
 .hover-link {
   position: absolute;
   display: none;
   padding: 10px 30px;
-  -webkit-border-radius: 26px;
-     -moz-border-radius: 26px;
-          border-radius: 26px;
+  border-radius: 26px;
   background-color: #ffffff;
   color: #ea736d;
   font-size: 16px;
   font-weight: 800;
   z-index: 6;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003182}}
 .hover-link:hover {
   color: #ffffff;
   background-color: #ea736d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003187}}
 .hover-link:active {
   color: #ffffff;
   background-color: #d4423b;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003192}}
   .hover-link {
     font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003196}}
   .hover-link {
     font-size: 22px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003201}}
 .portfolio-title-link {
   display: block;
   margin-bottom: 15px;
   color: #000000;
   font-size: 22px;
   font-weight: 700;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003209}}
 .portfolio-title-link:hover {
   color: #ed574f;
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003216}}
 .portfolio-title-link:active {
   color: #ed574f;
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003223}}
 .portfolio-title-link.portfolio-title-link--small {
   font-size: 22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003226}}
 .portfolio-title-link.portfolio-title-link--small:hover {
   color: #ed574f;
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003233}}
 .portfolio-title-link.portfolio-title-link--small:active {
   color: #ed574f;
   font-size: 22px;
@@ -1313,103 +1033,81 @@ ul {
   text-decoration: underline;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003241}}
   .portfolio-title-link {
     font-size: 24px;
     min-height: 75px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003245}}
   .portfolio-title-link:hover {
     font-size: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003249}}
   .portfolio-title-link:active {
     font-size: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003253}}
   .portfolio-title-link.portfolio-title-link--small {
     font-size: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003256}}
   .portfolio-title-link.portfolio-title-link--small:hover {
     font-size: 24px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003260}}
   .portfolio-title-link.portfolio-title-link--small:active {
     font-size: 24px;
   }
 }
 @media (min-width: 800px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003266}}
   .portfolio-title-link {
     min-height: auto;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003271}}
   .portfolio-title-link {
     font-size: 32px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003274}}
   .portfolio-title-link:hover {
     font-size: 32px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003278}}
   .portfolio-title-link:active {
     font-size: 32px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003282}}
   .portfolio-title-link.portfolio-title-link--small {
     font-size: 26px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003285}}
   .portfolio-title-link.portfolio-title-link--small:hover {
     font-size: 26px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003289}}
   .portfolio-title-link.portfolio-title-link--small:active {
     font-size: 26px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003296}}
 .portfolio-desc {
   color: #000000;
   font-size: 16px;
   font-weight: 300;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003301}}
 .portfolio-desc.portfolio-desc--small {
   font-size: 16px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003305}}
   .portfolio-desc {
     font-size: 18px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003308}}
   .portfolio-desc.portfolio-desc--small {
     font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003313}}
   .portfolio-desc {
     font-size: 22px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003316}}
   .portfolio-desc.portfolio-desc--small {
     font-size: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003323}}
 .mix {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003327}}
 .active {
   color: #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003331}}
 .portfolio-link-mobile {
   cursor: pointer;
   text-shadow: 0 3px 42px #ffffff;
@@ -1418,34 +1116,28 @@ ul {
   font-weight: 400;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003339}}
 .portfolio-link-mobile:hover {
   color: #039be5;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003344}}
 .portfolio-link-mobile:active {
   color: #ea655f;
   text-decoration: underline;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003353}}
   .portfolio-link-mobile {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\000031}}
 .section-timing {
   padding: 55px 0 65px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\000035}}
   .section-timing {
     padding: 85px 0 90px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\000039}}
   .section-timing {
     padding: 123px 0 85px;
     background-image: url("../img/bg/bg-timeline.jpg");
@@ -1453,25 +1145,18 @@ ul {
     z-index: -2;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000317}}
 .wrapper-timing-content {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   max-width: 320px;
   margin: 0 auto;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000324}}
 .wrapper-timing-content:before {
   position: absolute;
   content: "";
@@ -1479,18 +1164,14 @@ ul {
   left: 12%;
   height: 950px;
   width: 4px;
-  -webkit-border-radius: 2px;
-     -moz-border-radius: 2px;
-          border-radius: 2px;
+  border-radius: 2px;
   background-color: #e1eef4;
   z-index: 0;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000336}}
   .wrapper-timing-content {
     max-width: 768px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000339}}
   .wrapper-timing-content:before {
     position: absolute;
     content: "";
@@ -1498,19 +1179,15 @@ ul {
     left: 50%;
     height: 1000px;
     width: 4px;
-    -webkit-border-radius: 2px;
-       -moz-border-radius: 2px;
-            border-radius: 2px;
+    border-radius: 2px;
     background-color: #e1eef4;
     z-index: 0;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000352}}
   .wrapper-timing-content {
     max-width: 1005px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000355}}
   .wrapper-timing-content:before {
     position: absolute;
     content: "";
@@ -1518,31 +1195,25 @@ ul {
     left: 50%;
     height: 1000px;
     width: 4px;
-    -webkit-border-radius: 2px;
-       -moz-border-radius: 2px;
-            border-radius: 2px;
+    border-radius: 2px;
     background-color: #e1eef4;
     z-index: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000369}}
 .section-timing-title {
   text-align: center;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000373}}
   .section-timing-title {
     margin-bottom: 155px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000377}}
   .section-timing-title {
     margin-bottom: 127px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000382}}
 .timing-content-desc {
   position: relative;
   width: 100%;
@@ -1551,7 +1222,6 @@ ul {
   padding-left: 100px;
   margin-bottom: 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000390}}
 .timing-content-desc .wrapper-icon {
   position: absolute;
   top: 0;
@@ -1559,16 +1229,13 @@ ul {
   height: 115px;
   background-color: #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\0000398}}
 .timing-content-desc:hover {
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003103}}
 .timing-content-desc:hover .timing-content-desc-titile::before {
   background-color: #ea736d;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003109}}
   .timing-content-desc {
     width: 50%;
     height: 225px;
@@ -1576,91 +1243,73 @@ ul {
     padding-left: 0px;
     padding-top: 40px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003117}}
   .timing-content-desc:nth-child(even) {
     margin-right: auto;
     padding-right: 100px;
     text-align: right;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003122}}
   .timing-content-desc:nth-child(even) .wrapper-icon {
     position: absolute;
     top: 0;
     right: 0;
     -webkit-transform: translate(90%, 0);
-       -moz-transform: translate(90%, 0);
-        -ms-transform: translate(90%, 0);
-         -o-transform: translate(90%, 0);
-            transform: translate(90%, 0);
+    -ms-transform: translate(90%, 0);
+    transform: translate(90%, 0);
     height: 115px;
     background-color: #ffffff;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003133}}
   .timing-content-desc:nth-child(odd) {
     margin-left: auto;
     padding-left: 80px;
     text-align: left;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003138}}
   .timing-content-desc:nth-child(odd) .wrapper-icon {
     position: absolute;
     top: 0;
     left: 0;
     -webkit-transform: translate(-50%, 0);
-       -moz-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-         -o-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     height: 115px;
     background-color: #ffffff;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003149}}
   .timing-content-desc {
     width: 50%;
     height: 225px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003154}}
   .timing-content-desc:nth-child(even) {
     margin-right: auto;
     padding-right: 80px;
     text-align: right;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003159}}
   .timing-content-desc:nth-child(even) .wrapper-icon {
     position: absolute;
     top: 0;
     right: 0;
     -webkit-transform: translate(93%, 0);
-       -moz-transform: translate(93%, 0);
-        -ms-transform: translate(93%, 0);
-         -o-transform: translate(93%, 0);
-            transform: translate(93%, 0);
+    -ms-transform: translate(93%, 0);
+    transform: translate(93%, 0);
     height: 115px;
     background-color: #ffffff;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003170}}
   .timing-content-desc:nth-child(odd) {
     margin-left: auto;
     padding-left: 80px;
     text-align: left;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003175}}
   .timing-content-desc:nth-child(odd) .wrapper-icon {
     position: absolute;
     top: 0;
     left: 0;
     -webkit-transform: translate(-50%, 0);
-       -moz-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-         -o-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     height: 115px;
     background-color: #ffffff;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003187}}
 .timing-content-desc-titile {
   display: inline-block;
   margin-bottom: 10px;
@@ -1670,14 +1319,12 @@ ul {
   letter-spacing: -1px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003197}}
   .timing-content-desc-titile {
     font-size: 20px;
     letter-spacing: 0;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003202}}
   .timing-content-desc-titile {
     position: relative;
     display: inline-block;
@@ -1687,7 +1334,6 @@ ul {
     font-weight: 800;
     z-index: 2;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003211}}
   .timing-content-desc-titile::before {
     content: "";
     display: block;
@@ -1700,7 +1346,6 @@ ul {
     z-index: -1;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003226}}
 .timing-content-desc-info {
   margin-bottom: 5px;
   color: #000000;
@@ -1709,7 +1354,6 @@ ul {
   line-height: 1.4;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003233}}
   .timing-content-desc-info {
     font-size: 16px;
     line-height: 1.2;
@@ -1717,105 +1361,79 @@ ul {
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003239}}
   .timing-content-desc-info {
     margin-bottom: 15px;
     font-size: 18px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003246}}
 .timing-content-desc-result {
   color: #000000;
   font-size: 14px;
   font-weight: 700;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003251}}
   .timing-content-desc-result {
     font-size: 18px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003258}}
 .timing-content-icon {
   width: 75px;
   height: 75px;
   -webkit-box-shadow: 2px 3px 35px rgba(0, 112, 187, 0.35);
-     -moz-box-shadow: 2px 3px 35px rgba(0, 112, 187, 0.35);
-          box-shadow: 2px 3px 35px rgba(0, 112, 187, 0.35);
-  -webkit-border-radius: 28px;
-     -moz-border-radius: 28px;
-          border-radius: 28px;
+  box-shadow: 2px 3px 35px rgba(0, 112, 187, 0.35);
+  border-radius: 28px;
   background-color: #ffffff;
   padding: 17px;
   margin: 20px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-timing\.less}line{font-family:\00003267}}
 .timing-content-icon img {
   width: 40px;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\000031}}
 .section-contacts {
   padding: 50px 0 40px;
   background-color: #f4f8f9;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\000035}}
   .section-contacts {
     padding: 75px 0 90px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\000038}}
   .section-contacts.section-contacts--twolist {
     padding: 0 0 60px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000313}}
   .section-contacts {
     padding: 130px 0 150px;
     background-image: url("../img/bg/bg-contact.jpg");
     background-repeat: repeat-y;
-    -moz-background-size: cover;
-         background-size: cover;
+    background-size: cover;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000319}}
   .section-contacts.section-contacts--twolist {
     padding: 80px 0 100px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000325}}
 .wrapper-section-content {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000330}}
   .wrapper-section-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000334}}
   .wrapper-section-content {
     position: relative;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000337}}
   .wrapper-section-content::after {
     content: "";
     position: absolute;
@@ -1827,38 +1445,32 @@ ul {
     z-index: 1;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000351}}
 .section-contacts-title {
   margin-bottom: 49px;
   text-align: center;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000355}}
   .section-contacts-title {
     margin-bottom: 70px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000359}}
   .section-contacts-title {
     margin-bottom: 49px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000364}}
 .contacts-wrapper {
   position: relative;
   width: 100%;
   max-width: 585px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000369}}
   .contacts-wrapper {
     width: 50%;
     margin-right: 80px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000374}}
   .contacts-wrapper {
     width: 50%;
     margin-right: 32px;
@@ -1866,54 +1478,39 @@ ul {
     z-index: 9;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000382}}
 .contacts-date {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000387}}
 .contacts-date.contacts-date--last {
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000391}}
   .contacts-date {
     margin-bottom: 10px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000394}}
   .contacts-date.contacts-date--last {
     margin-bottom: 25px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\0000399}}
   .contacts-date {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-bottom: 22px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003104}}
   .contacts-date.contacts-date--last {
     margin-bottom: 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003110}}
 .contacts-content {
   margin-bottom: 25px;
   color: #000000;
@@ -1922,14 +1519,12 @@ ul {
   line-height: 26px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003117}}
   .contacts-content {
     font-size: 18px;
     margin-bottom: 15px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003122}}
   .contacts-content {
     margin-bottom: 40px;
     padding-right: 55px;
@@ -1939,7 +1534,6 @@ ul {
     line-height: 32px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003132}}
 .list-contacts-label {
   margin-bottom: 5px;
   color: #000000;
@@ -1947,38 +1541,32 @@ ul {
   font-weight: 700;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003138}}
   .list-contacts-label {
     min-width: 100px;
     margin-right: 94px;
     font-size: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003145}}
 .link-contacts {
   color: #039be5;
   font-size: 18px;
   font-weight: 500;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003150}}
   .link-contacts {
     font-size: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003155}}
 .list-contacts-name {
   color: #96969d;
   font-size: 18px;
   font-weight: 500;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003160}}
   .list-contacts-name {
     font-size: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003165}}
 .feadback-form {
   margin-top: 30px;
   margin-left: auto;
@@ -1988,12 +1576,10 @@ ul {
   max-width: 510px;
   padding: 35px 15px 40px;
   -webkit-box-shadow: 0 28px 100px #c2dbeb;
-     -moz-box-shadow: 0 28px 100px #c2dbeb;
-          box-shadow: 0 28px 100px #c2dbeb;
+  box-shadow: 0 28px 100px #c2dbeb;
   background-color: #ffffff;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003176}}
   .feadback-form {
     width: 48%;
     margin-top: 0px;
@@ -2001,37 +1587,30 @@ ul {
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003182}}
   .feadback-form {
     width: 48%;
     padding: 80px 60px 40px;
     -webkit-box-shadow: 0 28px 100px #c2dbeb;
-       -moz-box-shadow: 0 28px 100px #c2dbeb;
-            box-shadow: 0 28px 100px #c2dbeb;
+    box-shadow: 0 28px 100px #c2dbeb;
     background-color: #ffffff;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003190}}
 .form-row {
   margin-bottom: 30px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003195}}
 .form-row.form-row--last {
   margin-bottom: 20px;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003203}}
   .form-row {
     margin-bottom: 50px;
     position: relative;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003208}}
   .form-row.form-row--last {
     margin-bottom: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003215}}
 .form-input {
   width: 100%;
   height: 50px;
@@ -2044,30 +1623,24 @@ ul {
   border-bottom: 2px solid #eaeaea;
   resize: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003227}}
 .form-input:focus {
   border-bottom: 2px solid #ea736d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003232}}
 .form-input.form-input--textarea {
   height: auto;
   padding: 35px 5px;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003242}}
   .form-input {
     font-size: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003248}}
 .text-input {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003252}}
 .text-input:focus {
   border-bottom: 2px solid #ea736d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003257}}
 .fake-placeholder {
   position: absolute;
   left: 5px;
@@ -2076,53 +1649,44 @@ ul {
   font-size: 20px;
   font-weight: 700;
   pointer-events: none;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003268}}
 .fake-placeholder.active {
   font-size: 16px;
   color: #ed9626;
   top: -10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003274}}
 .error {
   color: red;
   font-size: 16px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003278}}
   .error {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_section-contacts\.less}line{font-family:\00003282}}
   .error {
     font-size: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\000031}}
 .footer {
   padding: 25px 0 40px;
   background-color: #333333;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\000039}}
   .footer {
     padding: 25px 0 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\0000314}}
 .footer-title {
   margin-bottom: 15px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\0000321}}
 .footer-content {
   color: #b0b0b0;
   font-size: 16px;
@@ -2130,56 +1694,41 @@ ul {
   letter-spacing: -1px;
   line-height: 1.6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\0000329}}
 .footer-content a {
   color: #b0b0b0;
   font-size: 16px;
   text-decoration: underline;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\0000335}}
 .footer-content a:hover {
   color: #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\0000339}}
 .footer-content a:active {
   color: #ffffff;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_footer\.less}line{font-family:\0000344}}
   .footer-content {
     letter-spacing: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\000031}}
 .list {
   background-color: #f4f8f9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\000035}}
 .wrapper-footer-portfolio {
   position: relative;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000312}}
 .footer-portfolio-content {
   margin-bottom: 20px;
   text-align: center;
@@ -2190,7 +1739,6 @@ ul {
   letter-spacing: 0.34px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000321}}
   .footer-portfolio-content {
     margin-bottom: 15px;
     font-size: 38px;
@@ -2198,14 +1746,12 @@ ul {
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000327}}
   .footer-portfolio-content {
     margin-bottom: 20px;
     font-size: 42px;
     letter-spacing: 0.5px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000334}}
 .footer-portfolio-content_desc p {
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
@@ -2215,94 +1761,75 @@ ul {
   letter-spacing: 0.43px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000343}}
   .footer-portfolio-content_desc p {
     font-size: 30px;
     letter-spacing: 0.36px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000348}}
   .footer-portfolio-content_desc p {
     font-size: 36px;
     letter-spacing: 0.43px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000353}}
 .footer-portfolio-content_desc p a {
   color: #4298e8;
   text-decoration: underline;
   cursor: pointer;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  -moz-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000359}}
 .footer-portfolio-content_desc p a:hover {
   color: #0c6c9c;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000364}}
 .footer-portfolio-content_desc p a:active {
   color: #ea655f;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000371}}
 .footer-main-img {
   margin: 0 auto 0;
   max-width: 1600px;
   z-index: -1;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000376}}
   .footer-main-img {
     margin: -120px auto 0;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_portfolio-list\.less}line{font-family:\0000380}}
   .footer-main-img {
     margin: -240px auto 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\000031}}
 .menu-icon {
   z-index: 19;
   position: relative;
   width: 40px;
   height: 40px;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: pointer;
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000311}}
   .menu-icon {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000315}}
 .menu-icon-line {
   position: relative;
   width: 40px;
   height: 5px;
   background-color: #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000321}}
 .menu-icon-line::before {
   position: absolute;
   content: "";
@@ -2314,12 +1841,10 @@ ul {
   background-color: #000000;
   -webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
   transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
-  -o-transition: top 0.2s linear 0.2s, -o-transform 0.2s ease-in;
-  -moz-transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -moz-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
-  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in, -moz-transform 0.2s ease-in, -o-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000333}}
 .menu-icon-line::after {
   position: absolute;
   content: "";
@@ -2331,46 +1856,35 @@ ul {
   background-color: #000000;
   -webkit-transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
   transition: top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
-  -o-transition: top 0.2s linear 0.2s, -o-transform 0.2s ease-in;
-  -moz-transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -moz-transform 0.2s ease-in;
+  -o-transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
   transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
-  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in, -moz-transform 0.2s ease-in, -o-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s, -webkit-transform 0.2s ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000348}}
 .menu-icon.menu-icon-active .menu-icon-line {
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000351}}
 .menu-icon.menu-icon-active .menu-icon-line::before {
   -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-       -o-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
   top: 0;
   -webkit-transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
-  -o-transition: top 0.2s linear, -o-transform 0.2s ease-in 0.2s;
-  -moz-transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -moz-transform 0.2s ease-in 0.2s;
+  -o-transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
-  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s, -moz-transform 0.2s ease-in 0.2s, -o-transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-menu\.less}line{font-family:\0000357}}
 .menu-icon.menu-icon-active .menu-icon-line::after {
   -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   top: 0;
   -webkit-transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, -webkit-transform 0.2s ease-in 0.2s;
-  -o-transition: top 0.2s linear, -o-transform 0.2s ease-in 0.2s;
-  -moz-transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -moz-transform 0.2s ease-in 0.2s;
+  -o-transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
-  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s, -moz-transform 0.2s ease-in 0.2s, -o-transform 0.2s ease-in 0.2s;
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s, -webkit-transform 0.2s ease-in 0.2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\000031}}
 .wrapper-nav {
   position: relative;
   max-width: 1400px;
@@ -2378,7 +1892,6 @@ ul {
   margin: 0 auto;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000318}}
 #overlay {
   position: fixed;
   top: 0;
@@ -2389,11 +1902,9 @@ ul {
   z-index: 8;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000329}}
 #overlay.active {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000333}}
 .mobile-nav {
   padding: 25px 30px 0;
   z-index: 9;
@@ -2406,41 +1917,29 @@ ul {
   background-color: #ffffff;
   -webkit-transition: -webkit-transform 0.4s ease-in;
   transition: -webkit-transform 0.4s ease-in;
-  -o-transition: -o-transform 0.4s ease-in;
-  -moz-transition: transform 0.4s ease-in, -moz-transform 0.4s ease-in;
+  -o-transition: transform 0.4s ease-in;
   transition: transform 0.4s ease-in;
-  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in, -moz-transform 0.4s ease-in, -o-transform 0.4s ease-in;
+  transition: transform 0.4s ease-in, -webkit-transform 0.4s ease-in;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000345}}
   .mobile-nav {
     padding: 30px 30px 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000350}}
 .mobile-nav--active {
   -webkit-transform: translateX(-100%);
-     -moz-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
-       -o-transform: translateX(-100%);
-          transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000354}}
 .mobile-list {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000360}}
 .mobile-links {
   margin-bottom: 25px;
   color: #000000;
@@ -2450,43 +1949,31 @@ ul {
   text-decoration: underline;
   -webkit-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
-  -moz-transition: 0.4s ease-in;
   transition: 0.4s ease-in;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000369}}
 .mobile-links:last-child {
   margin-bottom: 35px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000373}}
 .mobile-links:hover {
   color: #902c2c;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000378}}
 .mobile-links:active {
   color: #4b1a1a;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000384}}
 .mobile-icon-links {
   margin-bottom: 25px;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_mobile-nav\.less}line{font-family:\0000391}}
 .link-email-mobile {
   color: #039be5;
   font-size: 18px;
@@ -2494,62 +1981,49 @@ ul {
   line-height: 22px;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\000031}}
 .section-description {
   padding: 30px 0 60px 0;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\000034}}
   .section-description {
     padding: 40px 0 90px 0;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\000038}}
   .section-description {
     padding: 100px 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000313}}
 .section-description__heading {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
   color: #000000;
   font-size: 30px;
   font-weight: 700;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000322}}
   .section-description__heading {
     margin-bottom: 45px;
     font-size: 42px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000327}}
   .section-description__heading {
     margin-bottom: 40px;
     font-size: 48px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000333}}
 .section-description__heading-item {
   position: relative;
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000336}}
 .section-description__heading-item::before {
   content: "";
   display: block;
@@ -2561,36 +2035,27 @@ ul {
   background-color: #fbdc4d;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000349}}
 .section-description__skills {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-     -moz-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000355}}
   .section-description__skills {
     margin-bottom: 50px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000359}}
   .section-description__skills {
     margin-bottom: 85px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000364}}
 .section-description__skills-name {
   margin-right: 10px;
   margin-bottom: 10px;
@@ -2602,96 +2067,71 @@ ul {
   font-weight: 700;
   letter-spacing: 0.17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000375}}
 .section-description__skills-name.section-description__skills-name--css {
   background-color: #039be5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000378}}
 .section-description__skills-name.section-description__skills-name--bootstrap {
   background-color: #a062c7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000381}}
 .section-description__skills-name.section-description__skills-name--js {
   background-color: #ffd200;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000384}}
 .section-description__skills-name.section-description__skills-name--jquery {
   background-color: #044d85;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000387}}
 .section-description__skills-name.section-description__skills-name--php {
   background-color: #777bb4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000390}}
 .section-description__skills-name:last-child {
   margin-right: 0;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000394}}
   .section-description__skills-name {
     margin-bottom: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\0000399}}
 .project-row {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-  -webkit-flex-direction: column-reverse;
-     -moz-box-orient: vertical;
-     -moz-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
   margin-bottom: 45px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003104}}
   .project-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003108}}
   .project-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     margin-bottom: 110px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003114}}
 .wrapper-project-content {
   width: 100%;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003118}}
   .wrapper-project-content {
     width: 40%;
     margin-right: 30px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003123}}
   .wrapper-project-content {
     width: 40%;
     margin-right: 30px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003129}}
 .content-project__title {
   position: relative;
   display: inline-block;
@@ -2700,7 +2140,6 @@ ul {
   font-size: 26px;
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003137}}
 .content-project__title::before {
   content: "";
   display: block;
@@ -2712,36 +2151,27 @@ ul {
   background-color: #fbdc4d;
   z-index: -1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003149}}
 .content-project__block {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-     -moz-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003154}}
 .content-project__block.content-project__block--last {
   margin-bottom: 45px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003159}}
 .content-project__block-icon {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003163}}
 .content-project__block-link {
   color: #2a86b3;
   font-size: 18px;
   font-weight: 400;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003169}}
 .content-project__about {
   margin-bottom: 50px;
   color: #161616;
@@ -2750,39 +2180,27 @@ ul {
   line-height: 24px;
   letter-spacing: 0.19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003178}}
 .content-project__row {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-     -moz-box-orient: vertical;
-     -moz-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003183}}
 .content-project__row.content-project__row--last {
   margin-bottom: 0;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003187}}
   .content-project__row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003192}}
 .content-project__desc-label {
   min-width: 115px;
   margin-right: 50px;
@@ -2791,14 +2209,12 @@ ul {
   font-weight: 700;
   letter-spacing: 0.19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003201}}
 .content-project__desc-text {
   color: #161616;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003208}}
 .content-project__desc-link {
   display: inline;
   color: #039be5;
@@ -2808,7 +2224,6 @@ ul {
   text-decoration: underline;
   letter-spacing: 0.19px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003218}}
 .section-description__img-project {
   width: 100%;
   max-width: 100vh;
@@ -2818,7 +2233,6 @@ ul {
   margin-bottom: 60px;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003226}}
   .section-description__img-project {
     width: 57%;
     max-width: 652px;
@@ -2828,32 +2242,24 @@ ul {
     margin-bottom: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003236}}
 .section-description__img-project-img {
   width: 100vh;
   height: 100vh;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003240}}
   .section-description__img-project-img {
     width: 100%;
     height: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003246}}
 .nav-button-project {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003251}}
 .nav-button-project__button {
   display: inline-block;
   background-color: #333333;
@@ -2866,34 +2272,27 @@ ul {
   font-weight: 300;
   letter-spacing: 0.22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003263}}
 .nav-button-project__button:hover {
   background-color: #656565;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003267}}
 .nav-button-project__button:active {
   background-color: #141414;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003271}}
 .nav-button-project__button.nav-button-project__button--back {
   display: none;
 }
 @media (min-width: 768px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003276}}
   .nav-button-project__button {
     padding: 20px;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003279}}
   .nav-button-project__button.nav-button-project__button--back {
     display: block;
     margin-right: 30px;
   }
 }
 @media (min-width: 1200px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Andrew\/Desktop\/porfolio-master\/less\/blocks\/_project\.less}line{font-family:\00003285}}
   .nav-button-project__button {
     font-size: 22px;
     padding: 30px;
   }
 }
-/*# sourceMappingURL=main.css.map */
